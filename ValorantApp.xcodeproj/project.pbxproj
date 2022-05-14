@@ -13,6 +13,8 @@
 		C99F05C1282C825200D90818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99F05BF282C825200D90818 /* Main.storyboard */; };
 		C99F05C3282C825300D90818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99F05C2282C825300D90818 /* Assets.xcassets */; };
 		C99F05C6282C825300D90818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99F05C4282C825300D90818 /* LaunchScreen.storyboard */; };
+		C9A7B485282DAB050087CFAA /* valorantCharViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A7B484282DAB050087CFAA /* valorantCharViewController.swift */; };
+		C9ED419E2830692B006DC146 /* CharModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED419D2830692B006DC146 /* CharModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C99F05C2282C825300D90818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99F05C5282C825300D90818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99F05C7282C825300D90818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A7B484282DAB050087CFAA /* valorantCharViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valorantCharViewController.swift; sourceTree = "<group>"; };
+		C9ED419D2830692B006DC146 /* CharModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				C99F05B9282C825200D90818 /* AppDelegate.swift */,
 				C99F05BB282C825200D90818 /* SceneDelegate.swift */,
 				C99F05BD282C825200D90818 /* ViewController.swift */,
+				C9A7B484282DAB050087CFAA /* valorantCharViewController.swift */,
 				C99F05BF282C825200D90818 /* Main.storyboard */,
 				C99F05C2282C825300D90818 /* Assets.xcassets */,
 				C99F05C4282C825300D90818 /* LaunchScreen.storyboard */,
 				C99F05C7282C825300D90818 /* Info.plist */,
+				C9ED419D2830692B006DC146 /* CharModel.swift */,
 			);
 			path = ValorantApp;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ED419E2830692B006DC146 /* CharModel.swift in Sources */,
 				C99F05BE282C825200D90818 /* ViewController.swift in Sources */,
 				C99F05BA282C825200D90818 /* AppDelegate.swift in Sources */,
+				C9A7B485282DAB050087CFAA /* valorantCharViewController.swift in Sources */,
 				C99F05BC282C825200D90818 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
